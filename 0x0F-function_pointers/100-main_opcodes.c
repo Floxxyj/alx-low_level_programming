@@ -26,8 +26,8 @@ int main(int argc, char *argv[])
 	}
 	add = (char *)&main;
 	bytes = atoi(argv[1]);
-i = 0;
-while (i < bytes - 1)
+	i = 0;
+	while (i < bytes - 1)
 	{
 		printf("%02hhx ", add[i]);
 		i++;
@@ -35,4 +35,3 @@ while (i < bytes - 1)
 	printf("%02hhx\n", add[i]);
 	return (0);
 }
-
